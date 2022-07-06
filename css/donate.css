@@ -1,0 +1,99 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Banner Section */
+#banner{
+    height: 650px;
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+}
+.banner-text{
+    background-image: linear-gradient(rgba(122, 122, 122, 0.247), rgba(0, 0, 0, 0.705));
+    width: auto;
+    padding: 10% 20%;
+    height: auto;
+    color: white;  
+}
+.banner-text h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.banner-text p{
+    padding: 0 15%;
+    color: #ECE9E8;
+    font-size: 18px;
+}
+.banner-btn{
+    background-color: #ff5959;
+    margin-top: 3%;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
+    color: white;
+    border: none;
+}
+
+/* Donate Section */
+#donate{
+    text-align: center;
+    padding: 5% 17%;
+}
+#donate h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+#donate p{
+    padding: 0 15%;
+    color: #949290;
+    font-size: 18px;
+}
+.donate-div{
+    padding: 2% 5%;
+    margin-top: 5%;
+    display: flex;
+}
+.donate-amount{
+    width: 20%;
+    text-align: center;
+    padding: 22px 15px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    color: #686868;
+    font-size: 20px;
+    font-weight: bold;
+}
+.active{
+    border: 3px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #ff5959;
+}
+.amount-div{
+    padding: 7% 5%;
+}
+.input-amount{
+    width: 100%;
+    padding: 2% 0;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid #dddcdc;
+}
+.donate-btn{
+    background-color: #ff5959;
+    margin-top: 5%;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
+    color: white;
+    border: none; 
+}
