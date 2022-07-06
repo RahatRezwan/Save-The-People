@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
@@ -44,7 +44,7 @@ body{
 /* Donate Section */
 #donate{
     text-align: center;
-    padding: 5% 17%;
+    padding: 5% 17% 0;
 }
 #donate h1{
     font-size: 45px;
@@ -77,7 +77,7 @@ body{
     color: #ff5959;
 }
 .amount-div{
-    padding: 7% 5%;
+    padding: 3% 5%;
 }
 .input-amount{
     width: 100%;
@@ -96,4 +96,67 @@ body{
     border-radius: 7px;
     color: white;
     border: none; 
+}
+
+/* Donate Plan Section */
+#donate-plan{
+    padding: 5% 11% 0%;
+    text-align: center;
+}
+.plan-heading{
+    padding: 0 6%;
+}
+.plan-heading h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.plan-heading p{
+    padding: 0 15%;
+    color: #949290;
+    font-size: 18px;
+}
+.plans-row{
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+}
+.plan{
+    width: 33.33%;
+    text-align: left;
+    padding: 2.5%;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    color: #1f1e1e;
+    font-size: 15px;
+    font-weight: bold;
+}
+.plan p{
+    text-align: justify;
+    font-weight: 500;
+    color: #949290;
+}
+.color1{
+    background-color: rgba(220, 220, 255, 0.973);
+}
+.color2{
+    background-color: rgba(255, 229, 219, 0.973);
+}
+.color3{
+    background-color: rgba(233, 255, 240, 0.973);
+}
+
+/* Footer Section */
+.footer{
+    padding: 2% 12%;
+    background-color: black;
+    text-align: center;
+}
+.footer h1{
+    color: #ff5959;
+    font-size: 25px;
+}
+.footer p{
+    color: #949290;
+    font-size: 15px;
 }
