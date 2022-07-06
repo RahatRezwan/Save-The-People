@@ -187,6 +187,51 @@ body{
     border: none; 
 }
 
+/* Volunteer Section */
+#volunteer{
+    padding: 1% 12% 5%;
+}
+.volunteer-heading{
+    text-align: center;
+}
+.volunteer-heading h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+.volunteer-heading p{
+    font-size: 16px;
+    padding: 0 30%;
+    color: #949290;
+}
+.volunteers{
+    margin-top: 10% ;
+    padding: 0% 0%;
+    display: flex;
+}
+.volunteer-col{
+    margin: 10px;
+    padding: 3% 0;
+    width: 25%;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+.volunteer-col img{
+    margin: 0%;
+    margin-top: -35%;
+    width: 45%;
+    border: 1px solid #ff5959;
+    border-radius: 100%;
+}
+.volunteer-col h3{
+    font-size: 18px;
+    line-height: 0;
+}
+.volunteer-col p{
+    font-size: 15px;
+    color: #949290;
+}
+
 /* Footer Section */
 .footer{
     padding: 2% 12%;
