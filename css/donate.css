@@ -232,6 +232,52 @@ body{
     color: #949290;
 }
 
+/* Subscribe Section */
+#update{
+    padding: 5% 17%;
+    text-align: center;
+}
+#update h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+#update p{
+    font-size: 18px;
+    padding: 0 12%;
+    color: #949290;
+}
+.form-bg{
+    margin: 5%;
+    padding: 7% 17%;
+    background-color: antiquewhite; 
+    text-align: center;
+    display: flex;
+}
+.form{
+    width: 80%;
+    margin: 0;
+}
+input{
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 18px;
+    border: none;
+}
+.form-button{
+    margin: 0;
+    width: 20%;
+}
+.sub-btn{
+    margin: 0;
+    background-color: #ff5959;
+    padding: 14px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
 /* Footer Section */
 .footer{
     padding: 2% 12%;
@@ -239,10 +285,12 @@ body{
     text-align: center;
 }
 .footer h1{
+    font-family: 'Lobster', cursive;
     color: #ff5959;
-    font-size: 25px;
+    font-size: 30px;
 }
 .footer p{
+    font-family: 'Poppins', sans-serif;
     color: #949290;
     font-size: 15px;
 }
